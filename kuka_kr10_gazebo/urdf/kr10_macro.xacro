@@ -4,7 +4,7 @@
 <xacro:macro name="kuka_kr10_g" params="prefix">
 
   <!-- get base kuka kr10 model -->
-  <xacro:kuka_kr10r1100sixx prefix=""/>
+  <xacro:kuka_kr10r1100sixx prefix="${prefix}"/>
 
   <!-- transmission list -->
   <transmission name="${prefix}tran1">
